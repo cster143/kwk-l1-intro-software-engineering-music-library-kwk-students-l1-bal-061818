@@ -17,7 +17,20 @@ end
 list_artists
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
 # This method should accept a hash as an argument.
-
+def list_songs
+  library= {
+  :taylor_swift => "Style",
+  :silento => "Watch Me",
+  :selena_gomez => "Good For You",
+  :mark_ronson => "Uptown Funk!",
+  :andy_grammer => "Honey I'm Good",
+  :maroon_five => "Sugar"
+  }
+  library.each_value do |y|
+    puts y
+  end
+end
+list_songs
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol.
 
