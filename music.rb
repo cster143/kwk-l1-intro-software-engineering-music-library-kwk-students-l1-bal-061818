@@ -10,7 +10,9 @@ def list_artists
   :andy_grammer => "Honey I'm Good",
   :maroon_five => "Sugar"
   }
-  library.each_key 
+  library.each_key do |x|
+    puts x
+  end
 end
 list_artists
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
