@@ -43,7 +43,6 @@ def delete_artist
   :maroon_five => "Sugar"
   }
   puts delete_artist(library, :taylor_swift)
-  p
 end
 
 delete_artist
