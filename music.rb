@@ -42,7 +42,8 @@ def delete_artist
   :andy_grammer => "Honey I'm Good",
   :maroon_five => "Sugar"
   }
-  puts delete_artist(:taylor_swift => "Style")
+  puts delete_artist(library, :taylor_swift)
+  p
 end
 
 delete_artist
