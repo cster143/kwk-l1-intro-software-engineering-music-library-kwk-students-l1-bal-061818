@@ -38,7 +38,7 @@ def delete_artist
   :andy_grammer => "Honey I'm Good",
   :maroon_five => "Sugar"
   }
-  delete_artist(library, :taylor_swift)
+  .delete:taylor_swift
   puts library
 end
 
