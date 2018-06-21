@@ -10,8 +10,7 @@ def list_artists
   :andy_grammer => "Honey I'm Good",
   :maroon_five => "Sugar"
   }
-  list_artists.each_key do |x|
-    puts x
+  list_artists.each_key 
   end
 end
 list_artists
