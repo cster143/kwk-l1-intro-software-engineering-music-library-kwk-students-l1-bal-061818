@@ -33,20 +33,20 @@
 # list_songs
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol.
-# def delete_artist
-#   library= {
-#   :taylor_swift => "Style",
-#   :silento => "Watch Me",
-#   :selena_gomez => "Good For You",
-#   :mark_ronson => "Uptown Funk!",
-#   :andy_grammer => "Honey I'm Good",
-#   :maroon_five => "Sugar"
-#   }
-#   puts delete_artist(library, :taylor_swift)
-#   puts library
-# end
-#
-# delete_artist
+def delete_artist
+  library= {
+  :taylor_swift => "Style",
+  :silento => "Watch Me",
+  :selena_gomez => "Good For You",
+  :mark_ronson => "Uptown Funk!",
+  :andy_grammer => "Honey I'm Good",
+  :maroon_five => "Sugar"
+  }
+  delete_artist(library, :taylor_swift)
+  puts library
+end
+
+delete_artist
 
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash.
