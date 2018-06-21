@@ -13,7 +13,7 @@
 #   end
 # end
 # list_artists
-# 
+#
 # def list_songs
 #   library= {
 #   :taylor_swift => "Style",
@@ -38,7 +38,7 @@ def delete_artist
   :andy_grammer => "Honey I'm Good",
   :maroon_five => "Sugar"
   }
-  music.delete:taylor_swift
+  library.delete:taylor_swift
   puts library
 end
 
@@ -57,5 +57,5 @@ delete_artist
 #   library[:ed_sheeran]="Thinking Out Loud"
 #   puts library
 # end
-# 
+#
 # add_song_and_artist
